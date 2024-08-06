@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/reqres.iml" filepath="$PROJECT_DIR$/.idea/reqres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../restfulbooker/.idea/restfulbooker.iml" filepath="$PROJECT_DIR$/../restfulbooker/.idea/restfulbooker.iml" />
+    </modules>
+  </component>
+</project>
