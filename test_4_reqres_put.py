@@ -9,17 +9,16 @@ import allure
 @allure.description('Test the API endpoint to update details of an existing user')
 @allure.severity(allure.severity_level.CRITICAL)
 @pytest.mark.regression
-def test_update(user_for_update):
-    user_id = user_for_update["id"]
+def test_update():
     body = {
         "name": "morpheus",
         "job": "zion resident"
     }
     headers = {'Content-Type': 'application/json'}
 
-    with allure.step(f"Send PUT request to update details of user with ID {user_id}"):
+    with allure.step(f"Send PUT request to update details of user with ID 2"):
         response = requests.put(
-            f'https://reqres.in/api/users/{user_id}',
+            f'https://reqres.in/api/users/2',
             json=body,
             headers=headers
         )
